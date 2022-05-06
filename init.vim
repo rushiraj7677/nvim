@@ -20,6 +20,7 @@ syntax on
 :set number
 call plug#begin()
 Plug 'luochen1990/rainbow'
+Plug 'ctrlpvim/ctrlp.vim'
 Plug 'jreybert/vimagit'
 Plug 'dbgx/lldb.nvim'
 Plug 'ncm2/ncm2'
@@ -40,6 +41,8 @@ Plug 'drewtempelmeyer/palenight.vim'
 Plug 'tomlion/vim-solidity'
 Plug 'cespare/vim-toml'
 Plug 'rakr/vim-one'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'ryanoasis/vim-devicons'
 call plug#end()
 let g:rustfmt_autosave = 1
 let g:rust_clip_command = 'xclip -selection clipboard'
